@@ -6,7 +6,7 @@ let Domani = new Date("Jan 19, 2024 09:30:00").getTime();
 let rovescia = setInterval(function() {
 
   // Ottieni la data e l'ora corrente
-  let adesso = new Date("Jan 18, 2024 22:50:00").getTime();
+  let adesso = new Date("Jan 18, 2024 23:00:00").getTime();
 
   // Trova la distanza tra ora corrente e la data di fine conto alla rovescia
   let distance = Domani - adesso;
